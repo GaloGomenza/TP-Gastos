@@ -1,0 +1,29 @@
+{
+  "gastos": [
+    {
+      "id": 1,
+      "descripcion": "Supermercado",
+      "categoria": "Comida",
+      "monto": 25000
+    },
+    {
+      "id": 2,
+      "descripcion": "Carga SUBE",
+      "categoria": "Transporte",
+      "monto": 5000
+    },
+    {
+      "descripcion": "descripcion_",
+      "categoria": "categoria_",
+      "monto": 1110,
+      "id": 3
+    },
+    {
+      "descripcion": "ghjfdg",
+      "categoria": "hjfghj",
+      "monto": 1000,
+      "id": 4
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,9 @@
+<section>
+  <h1>Listado de Gastos</h1>
+  <ul>
+    @for (item of gastoService.gastos(); track item.id)
+    {
+      <li>Id: {{item.id}}   -   Descripcion: {{item.descripcion}}   -   Categoria: {{item.categoria}}   -   Monto: {{item.monto}}</li>
+    }
+  </ul>
+</section>
